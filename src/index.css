@@ -50,56 +50,88 @@ table {
     border-top: 10px solid #dee2e6;
 }
 
-.ser-01 {
+.service-01 {
     filter: drop-shadow(8px 8px 10px black);
     background: #007bff;
 }
-.ser-02 {
+.service-02 {
     filter: drop-shadow(8px 8px 10px black);
     background: #28a745;
 }
-.ser-03 {
+.service-03 {
     filter: drop-shadow(8px 8px 10px black);
     background: #ff8307;
 }
-.ser-04 {
+.service-04 {
     filter: drop-shadow(8px 8px 10px black);
     background: #dc3545;
 }
-.ser-05 {
+.service-05 {
     filter: drop-shadow(8px 8px 10px black);
     background: #17a2b8;
 }
-.ser-06 {
+.service-06 {
     filter: drop-shadow(8px 8px 10px black);
     background: #4528a7;
 }
-.ser-07 {
+.service-07 {
     filter: drop-shadow(8px 8px 10px black);
     background: #a74528;
 }
-.ser-08 {
+.service-08 {
     filter: drop-shadow(8px 8px 10px black);
     background: #c107ff;
 }
-.ser-09 {
+.service-09 {
     filter: drop-shadow(8px 8px 10px black);
     background: #6c757d;
 }
-.ser-10 {
+.service-10 {
     filter: drop-shadow(8px 8px 10px black);
     background: #ff007b;
 }
-.ser-11 {
+.service-11 {
     filter: drop-shadow(8px 8px 10px black);
     background: #ff4507;
 }
-.ser-12 {
+.service-12 {
     filter: drop-shadow(8px 8px 10px black);
     background: #b817a2;
 }
-.ser-13 {
+.service-13 {
     filter: drop-shadow(8px 8px 10px black);
     background: #a2b817;
 }
 
+.Cloud_service {
+    background: #f0f8ff;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+}
+
+.Cloud_list {
+    text-align: center;
+}
+
+.service_header, .tytle{
+    background: #ff8f73;
+    opacity: 1.0;
+    border:1px solid #32383e;
+}
+
+.service {
+    background: white;
+    color: #000000;
+    opacity: 1.0;
+    border:1px solid #32383e;
+    height: 40px;
+}
+
+.tytle {
+    text-align: left;
+    vertical-align: top;
+}
