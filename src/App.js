@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <div class="row justify-content-center appearing" style={{paddingBottom: "25px"}}>
-        <h1 class="text-center" style={{color: "#007bff", fontWeight: "normal", paddingTop: "30px"}}>Cloud Service Overview</h1>
+        <h1 class="text-center" style={{color: "#007bff", fontWeight: "normal", paddingTop: "30px"}}>Azure Service Overview</h1>
       </div>
       <div>
         <table style={{fontSize: "0.7rem"}}>
