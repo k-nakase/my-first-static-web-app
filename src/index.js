@@ -5,6 +5,6 @@ import App from './App';
 import Top from './Top';
 import Table from './Table';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-//ReactDOM.render(<Top />, document.getElementById('root'));
+//ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Top />, document.getElementById('root'));
 //ReactDOM.render(<Table />, document.getElementById('root'));
