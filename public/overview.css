@@ -106,36 +106,3 @@ table {
     filter: drop-shadow(8px 8px 10px black);
     background: #a2b817;
 }
-
-.Cloud_service {
-    background: #f0f8ff;
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    color: #000000;
-    font-size: 1.5rem;
-    vertical-align: bottom;
-}
-
-.Cloud_list {
-    text-align: center;
-}
-
-.service_header, .tytle{
-    background: #ff8f73;
-    opacity: 1.0;
-    border:1px solid #32383e;
-}
-
-.service {
-    background: white;
-    color: #000000;
-    opacity: 1.0;
-    border:1px solid #32383e;
-    height: 40px;
-}
-
-.tytle {
-    text-align: left;
-    vertical-align: top;
-}

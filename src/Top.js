@@ -9,10 +9,8 @@ function Top() {
       <div>
         <table>
           <tr class="Cloud_list">
-            <td class="Cloud_service" style={{background: "#a0d8ef"}}>Azure
-              <a href="./overview.html" >
-              abc
-              </a>
+            <td class="Cloud_service" style={{background: "#a0d8ef"}} onClick={test}>
+              Azure
             </td>
             <td class="Cloud_service" style={{background: "#192f60"}}>AWS</td>
             <td class="Cloud_service" style={{background: "white"}}>VMware</td>
@@ -22,6 +20,10 @@ function Top() {
       </div>
     </div>
   );
+}
+
+function test() {
+  window.location.href = "overview.html";
 }
 
 export default Top;
