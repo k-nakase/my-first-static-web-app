@@ -1,0 +1,54 @@
+[
+    {
+        "id": "head01",
+        "name": "AI + Machine Learning"
+    },
+    {
+        "id": "head02",
+        "name": "Analytics"
+    },
+    {
+        "id": "head03",
+        "name": "Compute"
+    },
+    {
+        "id": "head04",
+        "name": "Databases"
+    },
+    {
+        "id": "head05",
+        "name": "Development"
+    },
+    {
+        "id": "head06",
+        "name": "Identity + Security"
+    },
+    {
+        "id": "head07",
+        "name": "IoT + MR"
+    },
+    {
+        "id": "head08",
+        "name": "Integration"
+    },
+    {
+        "id": "head09",
+        "name": "Management + Governance"
+    },
+    {
+        "id": "head10",
+        "name": "Media + Comms"
+    },
+    {
+        "id": "head11",
+        "name": "Migration"
+    },
+    {
+        "id": "head12",
+        "name": "Networking"
+    },
+    {
+        "id": "head13",
+        "name": "Storage"
+    }
+]

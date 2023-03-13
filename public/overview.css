@@ -106,3 +106,8 @@ table {
     filter: drop-shadow(8px 8px 10px black);
     background: #a2b817;
 }
+
+img {
+    height: 40px;
+    width: 40px;
+}

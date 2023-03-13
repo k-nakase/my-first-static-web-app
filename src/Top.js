@@ -1,4 +1,6 @@
 import React from 'react';
+import { ReactComponent as AzureIcon } from "./azure.svg";
+import { ReactComponent as VmwareIcon } from "./vmware.svg";
 
 function Top() {
   return (
@@ -9,11 +11,17 @@ function Top() {
       <div>
         <table>
           <tr class="Cloud_list">
-            <td class="Cloud_service" style={{background: "#a0d8ef"}} onClick={test}>
+            <td class="Cloud_service" style={{background: "#a0d8ef"}} onClick={SelectCloud}>
+              <AzureIcon style={{width: "150px", height: "150px"}}></AzureIcon>
+              <br></br>
               Azure
             </td>
             <td class="Cloud_service" style={{background: "#192f60"}}>AWS</td>
-            <td class="Cloud_service" style={{background: "white"}}>VMware</td>
+            <td class="Cloud_service" style={{background: "white"}}>
+              <VmwareIcon style={{width: "150px", height: "150px"}}></VmwareIcon>
+              <br></br>
+              VMware
+            </td>
             <td class="Cloud_service">GCP</td>
           </tr>
         </table>
@@ -22,7 +30,7 @@ function Top() {
   );
 }
 
-function test() {
+function SelectCloud() {
   window.location.href = "overview.html";
 }
 
