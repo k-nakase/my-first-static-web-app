@@ -57,8 +57,14 @@ table {
     border-top: 10px solid #dee2e6;
 }
 
-.service_header, .title{
+.variable_header, .title{
     background: #ff8f73;
+    opacity: 1.0;
+    border:1px solid #32383e;
+}
+
+.constant_header{
+    background: red;
     opacity: 1.0;
     border:1px solid #32383e;
 }
@@ -78,4 +84,6 @@ table {
 img {
     width: 15px;
     height: 15px;
+    display: flex;
+    align-items: center;
 }

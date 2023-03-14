@@ -9,7 +9,1254 @@
     },
     {
         "id": "head03",
-        "name": "Compute"
+        "name": "Compute",
+        "service": [
+            {
+                "service_name": "Inclusion/Scope",
+                "class": "constant_header",
+                "category": [
+                    {
+                        "category_name": "Cloud Service Management",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Asset Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Change Management",
+                                    "icon": "check",
+                                    "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Incident Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Problem Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Reporting",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Request Management",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Available Levels of Service",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Enterprise",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Standard",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Foundation",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Availability Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Backup",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Disaster Recovery",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "*Blueprint Template Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Self Service Provisioning",
+                        "rowspan": 2,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Via Service Catalogue",
+                                "icon": "check",
+                                "comment": "(Partial)"
+                            },
+                            {
+                                "Service Item_name": "Via Cloud API",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Cloud Optimize",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Event Management & Monitoring",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Resource Insights (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "Resource Health",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Health",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Governance Policies & Guardrails",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "???1",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "???2",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???3",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???4",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???5",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???6",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Logging",
+                        "rowspan": 4,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Activity Logs",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Resource Logs",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Network flow logs (if applicable)",
+                                "icon": "",
+                                "comment": "N/A"
+                            },
+                            {
+                                "Service Item_name": "Application logs (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Patch Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Access & Security",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Identity and Access",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Logging",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Management Services",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "service_name": "Azure Batch",
+                "class": "variable_header",
+                "category": [
+                    {
+                        "category_name": "Cloud Service Management",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Asset Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Change Management",
+                                    "icon": "check",
+                                    "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Incident Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Problem Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Reporting",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Request Management",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Available Levels of Service",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Enterprise",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Standard",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Foundation",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Availability Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Backup",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "",
+                                "comment": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Disaster Recovery",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "*Blueprint Template Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "cross",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Self Service Provisioning",
+                        "rowspan": 2,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Via Service Catalogue",
+                                "icon": "cross",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Via Cloud API",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Cloud Optimize",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Event Management & Monitoring",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Resource Insights (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "Resource Health",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Health",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Governance Policies & Guardrails",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "???1",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "???2",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???3",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???4",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???5",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???6",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Logging",
+                        "rowspan": 4,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Activity Logs",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Resource Logs",
+                                "icon": "cross",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Network flow logs (if applicable)",
+                                "icon": "",
+                                "comment": "N/A"
+                            },
+                            {
+                                "Service Item_name": "Application logs (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Patch Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "",
+                                "comment": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Access & Security",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Identity and Access",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Logging",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Management Services",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "service_name": "Azure Functions",
+                "class": "variable_header",
+                "category": [
+                    {
+                        "category_name": "Cloud Service Management",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Asset Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Change Management",
+                                    "icon": "check",
+                                    "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Incident Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Problem Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Reporting",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Request Management",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Available Levels of Service",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Enterprise",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Standard",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Foundation",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Availability Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Backup",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "",
+                                "comment": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Disaster Recovery",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "*Blueprint Template Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Self Service Provisioning",
+                        "rowspan": 2,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Via Service Catalogue",
+                                "icon": "cross",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Via Cloud API",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Cloud Optimize",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Event Management & Monitoring",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Resource Insights (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "Resource Health",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Health",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Governance Policies & Guardrails",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "???1",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "???2",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???3",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???4",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???5",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???6",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Logging",
+                        "rowspan": 4,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Activity Logs",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Resource Logs",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Network flow logs (if applicable)",
+                                "icon": "",
+                                "comment": "N/A"
+                            },
+                            {
+                                "Service Item_name": "Application logs (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Patch Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "",
+                                "comment": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Access & Security",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Identity and Access",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Logging",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Management Services",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "service_name": "Virtual Machines",
+                "class": "variable_header",
+                "category": [
+                    {
+                        "category_name": "Cloud Service Management",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Asset Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Change Management",
+                                    "icon": "check",
+                                    "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Incident Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Problem Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Reporting",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Request Management",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Available Levels of Service",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Enterprise",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Standard",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Foundation",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Availability Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Backup",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Disaster Recovery",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "*Blueprint Template Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Self Service Provisioning",
+                        "rowspan": 2,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Via Service Catalogue",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Via Cloud API",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Cloud Optimize",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Event Management & Monitoring",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Resource Insights (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "Resource Health",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Health",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Governance Policies & Guardrails",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "???1",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "???2",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???3",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???4",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???5",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???6",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Logging",
+                        "rowspan": 4,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Activity Logs",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Resource Logs",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Network flow logs (if applicable)",
+                                "icon": "",
+                                "comment": "N/A"
+                            },
+                            {
+                                "Service Item_name": "Application logs (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Patch Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Access & Security",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Identity and Access",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Logging",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Management Services",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "service_name": "VM Scale Sets",
+                "class": "variable_header",
+                "category": [
+                    {
+                        "category_name": "Cloud Service Management",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Asset Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Change Management",
+                                    "icon": "check",
+                                    "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Incident Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Problem Management",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Reporting",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Request Management",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Available Levels of Service",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Enterprise",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Standard",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Foundation",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Availability Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Backup",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "",
+                                "comment": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Disaster Recovery",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "*Blueprint Template Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Self Service Provisioning",
+                        "rowspan": 2,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Via Service Catalogue",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Via Cloud API",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Cloud Optimize",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Event Management & Monitoring",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Resource Insights (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "Resource Health",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Service Health",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Governance Policies & Guardrails",
+                        "rowspan": 6,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "???1",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "???2",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???3",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???4",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???5",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            },
+                            {
+                                "Service Item_name": "???6",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Logging",
+                        "rowspan": 4,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Activity Logs",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Resource Logs",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Network flow logs (if applicable)",
+                                "icon": "",
+                                "comment": "N/A"
+                            },
+                            {
+                                "Service Item_name": "Application logs (if applicable)",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Patch Management",
+                        "rowspan": 1,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "-",
+                                "icon": "check",
+                                "comment": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category_name": "Access & Security",
+                        "rowspan": 3,
+                        "Service Item": [
+                            {
+                                "Service Item_name": "Identity and Access",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Logging",
+                                "icon": "check",
+                                "comment": ""
+                            },
+                            {
+                                "Service Item_name": "Security Management Services",
+                                "icon": "warning",
+                                "comment": "(Additional Paid Service)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "head04",
