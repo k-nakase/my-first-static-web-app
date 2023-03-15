@@ -147,51 +147,56 @@
         request.responseType = "json";
         request.send();
 
-        let list;
-        let list2;
+        let cloud_data_obj;
+        let cloud_service_json;
         //起動時実行
         request.onload = function() {
-            list = request.response;
-            list = JSON.parse(JSON.stringify(list));
+            cloud_data_obj = request.response;
+            cloud_data_json = JSON.parse(JSON.stringify(cloud_data_obj));
             //サービスカテゴリ取得
-            for (let i=0; i<list.length; i++) {
-                if (id==list[i]["id"]) {
-                    name = list[i]["name"];
-                    list2 = list[i]["service"];
-                    break
+            for (let i=0; i<cloud_data_json.length; i++) {
+                if (id==cloud_data_json[i]["id"]) {
+                    name = cloud_data_json[i]["name"];
+                    cloud_service_json = cloud_data_json[i]["service"];
+                    break;
                 }
             }
             //Cloud Service Categoryのタイトル下に要素を追加
             title.insertAdjacentHTML("afterend", "<h2 class='subtitle'>"+name+"</h2>");
             //選択した分類に含まれるサービスの種類数ループ
-            for (let j=0; j<list2.length; j++) {
+            for (let j=0; j<cloud_service_json.length; j++) {
+
+              //ここにカテゴリ内のデータ(対応表のデータ)が存在するか判断。なければヘッダ・セル共に作成しない。
+              //cloud_service_json[j]["category"]
+              //↑の値で判断
+
                 //ヘッダ行作成
-                table.insertAdjacentHTML("beforeend", "<th class="+list2[j]["class"]+">"+list2[j]["service_name"]+"</th>");
+                table.insertAdjacentHTML("beforeend", "<th class="+cloud_service_json[j]["class"]+">"+cloud_service_json[j]["service_name"]+"</th>");
                 //row行目にセルを追加
                 let row = 1;
                 //セル作成
-                for (let k=0; k<list2[j]["category"].length; k++) {
-                    for (let l=0; l<list2[j]["category"][k]["Service Item"].length; l++) {
-                        let icon = list2[j]["category"][k]["Service Item"][l]["icon"]
-                        let comment = list2[j]["category"][k]["Service Item"][l]["comment"]
-                        let tab_id = document.getElementById("service"+String(row))
+                for (let k=0; k<cloud_service_json[j]["category"].length; k++) {
+                    for (let l=0; l<cloud_service_json[j]["category"][k]["Service Item"].length; l++) {
+                        let icon = cloud_service_json[j]["category"][k]["Service Item"][l]["icon"];
+                        let comment = cloud_service_json[j]["category"][k]["Service Item"][l]["comment"];
+                        let tag_id = document.getElementById("service"+String(row));
                         //マークの有無確認
                         if (icon=="") {
                             //マークなしセルを追加
-                            tab_id.insertAdjacentHTML("beforeend", "<td class='service'>"+comment+"</td>");
+                            tag_id.insertAdjacentHTML("beforeend", "<td class='service'>"+comment+"</td>");
                         }else {
                             //画像データ取得
                             if (icon=="check") {
-                                png = "check_mark.png"
+                                png = "check_mark.png";
                             }else if (icon=="cross") {
-                                png = "cross_mark.png"
+                                png = "cross_mark.png";
                             }else if (icon=="warning") {
-                                png = "warning.png"
+                                png = "warning.png";
                             }
                             //マークありセルを追加
-                            tab_id.insertAdjacentHTML("beforeend", "<td class='service'><img src=category/"+png+"></img>"+comment+"</td>");
+                            tag_id.insertAdjacentHTML("beforeend", "<td class='service'><img src=category/"+png+"></img>"+comment+"</td>");
                         }
-                        row = row+1
+                        row = row+1;
                     }
                 }
             }

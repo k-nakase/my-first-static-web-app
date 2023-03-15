@@ -24,7 +24,6 @@ th:hover, td:hover {
     opacity: 1.0;
 }
 
-
 th {
     height: 50px;
     border-top:1px solid #32383e;
@@ -54,55 +53,55 @@ table {
     border-top: 10px solid #dee2e6;
 }
 
-.service-01 {
+.service1 {
     filter: drop-shadow(8px 8px 10px black);
     background: #007bff;
 }
-.service-02 {
+.service2 {
     filter: drop-shadow(8px 8px 10px black);
     background: #28a745;
 }
-.service-03 {
+.service3 {
     filter: drop-shadow(8px 8px 10px black);
     background: #ff8307;
 }
-.service-04 {
+.service4 {
     filter: drop-shadow(8px 8px 10px black);
     background: #dc3545;
 }
-.service-05 {
+.service5 {
     filter: drop-shadow(8px 8px 10px black);
     background: #17a2b8;
 }
-.service-06 {
+.service6 {
     filter: drop-shadow(8px 8px 10px black);
     background: #4528a7;
 }
-.service-07 {
+.service7 {
     filter: drop-shadow(8px 8px 10px black);
     background: #a74528;
 }
-.service-08 {
+.service8 {
     filter: drop-shadow(8px 8px 10px black);
     background: #c107ff;
 }
-.service-09 {
+.service9 {
     filter: drop-shadow(8px 8px 10px black);
     background: #6c757d;
 }
-.service-10 {
+.service10 {
     filter: drop-shadow(8px 8px 10px black);
     background: #ff007b;
 }
-.service-11 {
+.service11 {
     filter: drop-shadow(8px 8px 10px black);
     background: #ff4507;
 }
-.service-12 {
+.service12 {
     filter: drop-shadow(8px 8px 10px black);
     background: #b817a2;
 }
-.service-13 {
+.service13 {
     filter: drop-shadow(8px 8px 10px black);
     background: #a2b817;
 }

@@ -16,7 +16,10 @@ function Top() {
               <br></br>
               Azure
             </td>
-            <td class="Cloud_service" style={{background: "#192f60"}}>AWS</td>
+            <td class="Cloud_service" style={{background: "#192f60"}}>
+              <br></br>
+              AWS
+            </td>
             <td class="Cloud_service" style={{background: "white"}}>
               <VmwareIcon style={{width: "150px", height: "150px"}}></VmwareIcon>
               <br></br>
