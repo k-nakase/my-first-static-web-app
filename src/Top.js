@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactComponent as AzureIcon } from "./azure.svg";
+import { ReactComponent as AWSIcon } from "./aws.svg";
 import { ReactComponent as VmwareIcon } from "./vmware.svg";
 
 function Top() {
@@ -13,19 +14,25 @@ function Top() {
           <tr class="Cloud_list">
             <td class="Cloud_service" style={{background: "#a0d8ef"}} onClick={SelectCloud}>
               <AzureIcon style={{width: "150px", height: "150px"}}></AzureIcon>
-              <br></br>
+              <br/>
               Azure
             </td>
             <td class="Cloud_service" style={{background: "#192f60"}}>
-              <br></br>
+              <AWSIcon style={{width: "150px", height: "150px"}}></AWSIcon>
+              <br/>
               AWS
             </td>
             <td class="Cloud_service" style={{background: "white"}}>
               <VmwareIcon style={{width: "150px", height: "150px"}}></VmwareIcon>
-              <br></br>
+              <br/>
               VMware
             </td>
-            <td class="Cloud_service">GCP</td>
+            <td class="Cloud_service">
+              Comming Soon...
+              <br/>
+              <br/>
+              GCP
+            </td>
           </tr>
         </table>
       </div>
