@@ -30,6 +30,7 @@ th, td {
 .scroll {
     overflow: auto;
     max-width: 1500px;
+    max-height: 700px;
     margin-left: auto;
     margin-right: auto;
 }
