@@ -1,7 +1,7 @@
 import React from 'react';
-import { ReactComponent as AzureIcon } from "./cloud_icon/azure.svg";
-import { ReactComponent as AWSIcon } from "./cloud_icon/aws.svg";
-import { ReactComponent as VmwareIcon } from "./cloud_icon/vmware.svg";
+import { ReactComponent as AzureIcon } from "./img/cloud/azure.svg";
+import { ReactComponent as AWSIcon } from "./img/cloud/aws.svg";
+import { ReactComponent as VmwareIcon } from "./img/cloud/vmware.svg";
 
 function Top() {
   return (
